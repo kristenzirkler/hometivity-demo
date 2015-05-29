@@ -36,9 +36,18 @@ p {
 .bullets {
   margin: 0 0 2em 1.5em;
   li {
-    list-style-type: disc;
-    line-height: 1.3em;
+    //list-style-type: disc;
+    line-height: 1.5em;
     margin: 0 0 1em;
+    position: relative;
+    &:before {
+      content: '\f061';
+      font-family: FontAwesome;
+      color: $main-color;
+      position: absolute;
+      top: 2px;
+      left: -1.3em;
+    }
   }
 }
 

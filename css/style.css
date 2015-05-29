@@ -431,9 +431,16 @@ p {
 .bullets {
   margin: 0 0 2em 1.5em; }
   .bullets li {
-    list-style-type: disc;
-    line-height: 1.3em;
-    margin: 0 0 1em; }
+    line-height: 1.5em;
+    margin: 0 0 1em;
+    position: relative; }
+    .bullets li:before {
+      content: '\f061';
+      font-family: FontAwesome;
+      color: #7dc52f;
+      position: absolute;
+      top: 2px;
+      left: -1.3em; }
 
 h1, h2, h3, h4 {
   font-family: "Roboto", Arial, "Lucida Grande", sans-serif; }
