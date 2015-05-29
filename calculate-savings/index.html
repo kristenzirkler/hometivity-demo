@@ -1,0 +1,108 @@
+---
+layout: default
+title: See Your Savings
+---
+
+<div class="content">
+
+        <h2>Calculate Your Savings with EMPP</h2>
+        <p>It takes only a minute to find out how much you can save with the Early Mortgage Pay-Off Plan. Use the Savings Calculator below and see how much money EMPP will put in your pocket. All you need is the information from a recent mortgage statement or payment coupon.</p>
+
+        <div class="calcform">
+            <div id="ctl00_RightColumnContent_CalcUpdatePanel">
+                
+                <div id="ctl00_RightColumnContent_valSummaryServer" class="calcform-validator-summary" style="color:Red;display:none;"></div>
+                
+                <div class="calcform-oddrow">
+                    <div class="calcform-leftcolumn">
+                        <h3>What type of mortgage do you have?</h3>
+                        <table id="ctl00_RightColumnContent_lstCalcRateType" class="calcform-radiobuttonlist" border="0">
+                            <tbody><tr>
+                                <td><input id="ctl00_RightColumnContent_lstCalcRateType_0" type="radio" name="ctl00$RightColumnContent$lstCalcRateType" value="Fixed" checked="checked" tabindex="1"><label for="ctl00_RightColumnContent_lstCalcRateType_0">Fixed rate</label></td>
+                            </tr><tr>
+                                <td><input id="ctl00_RightColumnContent_lstCalcRateType_1" type="radio" name="ctl00$RightColumnContent$lstCalcRateType" value="Adjustable" onclick="javascript:setTimeout('__doPostBack(\'ctl00$RightColumnContent$lstCalcRateType$1\',\'\')', 0)" tabindex="1"><label for="ctl00_RightColumnContent_lstCalcRateType_1">Adjustable rate (ARM)</label></td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                    <div class="calcform-rightcolumn">
+                        Your original mortgage documents should indicate whether your interest rate is fixed or adjustable. If in doubt, contact your lender.
+                    </div>
+                </div>
+
+                <div class="calcform-evenrow">
+                    <div class="calcform-leftcolumn">
+                        <h3>What is your current mortgage balance?</h3>
+                        <input name="ctl00$RightColumnContent$txtBalance" type="text" maxlength="14" size="14" id="ctl00_RightColumnContent_txtBalance" tabindex="2" class="calcform-textbox">
+                        <span id="ctl00_RightColumnContent_valRequiredBalance" class="calcform-validator" style="color:Red;display:none;">
+                                <img src="_images/exclamation_yellow_triangle_14x13.gif" alt="Mortgage balance is required" title="Mortgage balance is required" width="14" height="13">
+                        </span>
+                        <span id="ctl00_RightColumnContent_valRegexBalance" class="calcform-validator" style="color:Red;display:none;">
+                                <img src="_images/exclamation_yellow_triangle_14x13.gif" alt="Mortgage balance must be a dollar amount" title="Mortgage balance must be a dollar amount" width="14" height="13">
+                        </span>
+                    </div>
+                    <div class="calcform-rightcolumn">
+                        Check a recent statement from your mortgage lender for your current balance. If you're not sure, you can simply estimate your balance for now.
+                    </div>
+                </div>
+
+                <div class="calcform-oddrow">
+                    <div class="calcform-leftcolumn">
+                        <h3>What is your current total monthly payment?</h3>
+                        <input name="ctl00$RightColumnContent$txtTotalPayment" type="text" maxlength="10" size="10" id="ctl00_RightColumnContent_txtTotalPayment" tabindex="3" class="calcform-textbox">
+                        <span id="ctl00_RightColumnContent_valRequiredTotalPayment" class="calcform-validator" style="color:Red;display:none;">
+                            <img src="_images/exclamation_yellow_triangle_14x13.gif" alt="Total monthly payment is required" title="Total monthly payment is required" width="14" height="13">
+                        </span>
+                        <span id="ctl00_RightColumnContent_valRegexTotalPayment" class="calcform-validator" style="color:Red;display:none;">
+                            <img src="_images/exclamation_yellow_triangle_14x13.gif" alt="Total monthly payment must be a dollar amount" title="Total monthly payment must be a dollar amount" width="14" height="13">
+                        </span>
+                    </div>
+                    <div class="calcform-rightcolumn">
+                        This is the total amount of your mortgage payment due each month, including principal, interest, property taxes, and insurance.
+                    </div>
+                </div>
+                <div class="calcform-evenrow">
+                    <div class="calcform-leftcolumn">
+                        <h3>What is your current mortgage interest rate?</h3>
+                        <input name="ctl00$RightColumnContent$txtIntRate" type="text" maxlength="8" size="8" id="ctl00_RightColumnContent_txtIntRate" tabindex="4" class="calcform-textbox">
+                        <span id="ctl00_RightColumnContent_valRequiredIntRate" class="calcform-validator" style="color:Red;display:none;">
+                            <img src="_images/exclamation_yellow_triangle_14x13.gif" alt="Mortgage interest rate is required" title="Mortgage interest rate is required" width="14" height="13">
+                        </span>
+                        <span id="ctl00_RightColumnContent_valRegexIntRate" class="calcform-validator" style="color:Red;display:none;">
+                            <img src="_images/exclamation_yellow_triangle_14x13.gif" alt="Mortgage interest rate must be between 1% and 19.9999%" title="Mortgage interest rate must be between 1% and 19.9999%" width="14" height="13">
+                        </span>
+                    </div>
+                    <div class="calcform-rightcolumn">
+                        If you don't know your current mortgage interest rate, consult a recent mortgage statement or contact your lender.
+                    </div>
+                </div>
+
+                <div id="ctl00_RightColumnContent_pnlPromptPiPayment">
+                    <div class="calcform-oddrow">
+                        <div class="calcform-leftcolumn">
+                            <h3>What is your monthly P&amp;I payment?</h3>
+                            <input name="ctl00$RightColumnContent$txtPiPayment" type="text" maxlength="10" size="10" id="ctl00_RightColumnContent_txtPiPayment" tabindex="5" class="calcform-textbox">
+                            <span id="ctl00_RightColumnContent_valRequiredPiPayment" class="calcform-validator" style="color:Red;display:none;">
+                                <img src="_images/exclamation_yellow_triangle_14x13.gif" alt="Monthly P&amp;I payment is required" title="Monthly P&amp;I payment is required" width="14" height="13">
+                            </span>
+                            <span id="ctl00_RightColumnContent_valRegexPiPayment" class="calcform-validator" style="color:Red;display:none;">
+                                <img src="_images/exclamation_yellow_triangle_14x13.gif" alt="Monthly P&amp;I payment must be a dollar amount" title="Monthly P&amp;I payment must be a dollar amount" width="14" height="13">
+                            </span>
+                        </div>
+                        <div class="calcform-rightcolumn">
+                            Look for your Principal &amp; Interest (P&amp;I) amount on a recent statement or payment coupon, or calculate it by subtracting any escrow from your total monthly payment amount.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="submit">
+                <input type="image" name="ctl00$RightColumnContent$btnCalculate" id="ctl00_RightColumnContent_btnCalculate" tabindex="99" src="_images/button_calculate.gif" alt="Calculate your savings" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$RightColumnContent$btnCalculate&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" style="border-width:0px;">
+                <br class="clear">
+            </div>
+
+        </div>
+
+</div>
+
+</div>
