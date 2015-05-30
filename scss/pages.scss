@@ -2,9 +2,9 @@
 	overflow: hidden;
 }
 .slide {
+	border-bottom: 1px solid $gray-light;
 	.inner {
 		padding: $mobile-side-space;
-		border-bottom: 1px solid $gray-light;
 	}
 	h3 {
 		margin-bottom: 1em;
@@ -13,6 +13,9 @@
 		strong {
 			font-family: $accent-font;
 		}
+	}
+	&:nth-child(even) {
+		background-color: $gray-lightest;
 	}
 }
 .intro-hero {
@@ -68,6 +71,7 @@
 @media all and (min-width: 420px) {
 // Tablet & Up
 .intro-hero {
+	padding: 10vw $desktop-side-space;
 	h1 {
 		font-size: 40px;
 	}
@@ -76,6 +80,13 @@
 		margin: 0 auto;
 	}
 
+}
+.slide {
+	.inner {
+		max-width: $page-size;
+		margin: 0 auto;
+		padding: 5em $desktop-side-space;
+	}
 }
 
 // End Tablet & Up

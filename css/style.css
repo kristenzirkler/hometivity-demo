@@ -277,7 +277,7 @@ table {
 
 /* '' */
 body {
-  margin-top: 50px; }
+  margin-top: 60px; }
 
 .site-navigation {
   -webkit-transition: all 1s;
@@ -297,7 +297,7 @@ body {
     display: inline-block;
     float: left;
     margin: 0 20px;
-    line-height: 50px;
+    line-height: 60px;
     font-family: "Roboto", Arial, "Lucida Grande", sans-serif;
     text-transform: uppercase;
     font-size: 1.5em; }
@@ -310,7 +310,7 @@ body {
     .site-navigation .mobile-toggle i {
       padding: 0 .5em;
       font-size: 1.3em;
-      line-height: 40px; }
+      line-height: 50px; }
   .site-navigation ul {
     display: block;
     clear: both;
@@ -324,7 +324,7 @@ body {
     font-size: 1.1em;
     font-family: "Roboto", Arial, "Lucida Grande", sans-serif;
     line-height: 60px;
-    border-top: 1px solid #f0f3f4; }
+    border-top: 1px solid #f5f4f2; }
   .site-navigation .nav-open {
     display: block; }
   .site-navigation.open {
@@ -346,7 +346,7 @@ body {
     clear: none;
     float: right;
     overflow: hidden;
-    line-height: 50px;
+    line-height: 60px;
     margin: 0 20px; }
     .site-navigation .nav li {
       display: inline-block;
@@ -355,13 +355,16 @@ body {
 .content {
   overflow: hidden; }
 
-.slide .inner {
-  padding: 30px;
-  border-bottom: 1px solid #ccc; }
-.slide h3 {
-  margin-bottom: 1em; }
-.slide .bullets strong {
-  font-family: "Roboto", Arial, "Lucida Grande", sans-serif; }
+.slide {
+  border-bottom: 1px solid #e5e5e3; }
+  .slide .inner {
+    padding: 30px; }
+  .slide h3 {
+    margin-bottom: 1em; }
+  .slide .bullets strong {
+    font-family: "Roboto", Arial, "Lucida Grande", sans-serif; }
+  .slide:nth-child(even) {
+    background-color: #f5f4f2; }
 
 .intro-hero {
   padding: 120px 60px 60px;
@@ -400,11 +403,82 @@ body {
     color: #8d9095; }
 
 @media all and (min-width: 420px) {
-  .intro-hero h1 {
-    font-size: 40px; }
-  .intro-hero .inner {
-    max-width: 625px;
-    margin: 0 auto; } }
+  .intro-hero {
+    padding: 10vw 20px; }
+    .intro-hero h1 {
+      font-size: 40px; }
+    .intro-hero .inner {
+      max-width: 625px;
+      margin: 0 auto; }
+
+  .slide .inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5em 20px; } }
+.button-standard {
+  padding: 1em 1.5em;
+  color: #fff;
+  display: inline-block;
+  background: #7dc52f;
+  font-family: "Roboto", Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+  .button-standard:hover {
+    color: #fff;
+    background: #639c25; }
+
+.button {
+  position: relative;
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.button:hover,
+.button:focus {
+  outline: none; }
+
+.button {
+  padding: 16px 0 14px;
+  color: #7dc52f;
+  text-shadow: none;
+  font-weight: 700; }
+
+.button::before,
+.button::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: #7dc52f;
+  content: '';
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+  -webkit-transition: width 0.3s, top 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: width 0.3s, top 0.3s, opacity 0.3s, -moz-transform 0.3s;
+  transition: width 0.3s, top 0.3s, opacity 0.3s, transform 0.3s; }
+
+.button::after {
+  opacity: 0; }
+
+.button:hover::before,
+.button:hover::after,
+.button:focus::before,
+.button:focus::after {
+  width: 100%; }
+
+.button:hover::after,
+.button:focus::after {
+  top: 0%;
+  opacity: 1; }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -461,19 +535,6 @@ h4 {
   font-size: 18px;
   margin-bottom: 1em;
   color: #7dc52f; }
-
-.button {
-  padding: 1em 1.5em;
-  color: #fff;
-  display: inline-block;
-  background: #7dc52f;
-  font-family: "Roboto", Arial, "Lucida Grande", sans-serif;
-  text-transform: uppercase;
-  display: block;
-  text-align: center; }
-  .button:hover {
-    color: #fff;
-    background: #96d651; }
 
 /* KZ Love Footer */
 .site-design {

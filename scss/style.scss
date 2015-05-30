@@ -4,6 +4,7 @@
 @import 'icons';
 @import 'site-frame';
 @import 'pages';
+@import 'buttons';
 
 //@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
 
@@ -72,26 +73,6 @@ h4 {
   margin-bottom: 1em;
   color: $main-color;
 }
-
-.button {
-  padding: 1em 1.5em;
-  color: #fff;
-  display: inline-block;
-  background: $main-color;
-  font-family: $accent-font;
-  text-transform: uppercase;
-
-  display: block;
-  text-align: center;
-  &:hover {
-    color: #fff;
-    background: lighten($main-color,10);
-  }
-}
-
-
-
-
 
 
 /* KZ Love Footer */

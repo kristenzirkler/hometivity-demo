@@ -1,4 +1,4 @@
-$nav-height: 50px;
+$nav-height: 60px;
 $footer-height: 50px;
 
 body {
@@ -47,7 +47,7 @@ body {
 	li {
 		font-size: 1.1em;
 		font-family: $accent-font;
-		line-height: 60px;
+		line-height: $nav-height;
 		border-top: 1px solid $gray-lightest;
 	}
 	.nav-open {

@@ -1,0 +1,82 @@
+.button-standard {
+  padding: 1em 1.5em;
+  color: #fff;
+  display: inline-block;
+  background: $main-color;
+  font-family: $accent-font;
+  text-transform: uppercase;
+
+  display: block;
+  text-align: center;
+
+  @include transition(all .3s);
+  &:hover {
+    color: #fff;
+    background: darken($main-color,10);
+  }
+}
+
+// Fancy Buttons
+.button {
+  position: relative;
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover,
+.button:focus {
+  outline: none;
+}
+
+.button {
+  padding: 16px 0 14px;
+  color: $main-color;
+  text-shadow: none;
+  font-weight: 700;
+}
+
+.button::before,
+.button::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: $main-color;
+  content: '';
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+
+  transition: transform 0.3s;
+  -webkit-transition: width 0.3s, top 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: width 0.3s, top 0.3s, opacity 0.3s, -moz-transform 0.3s;
+  transition: width 0.3s, top 0.3s, opacity 0.3s, transform 0.3s;
+
+  //transform-origin: bottom left;
+  //-webkit-transform: scale(0.6);
+  //-moz-transform: scale(0.6);
+  //transform: scale(0.6);
+}
+
+.button::after {
+  opacity: 0;
+}
+
+.button:hover::before,
+.button:hover::after,
+.button:focus::before,
+.button:focus::after {
+  //-webkit-transform: scale(1);
+  //-moz-transform: scale(1);
+  //transform: scale(1);
+
+  width: 100%;
+}
+
+.button:hover::after,
+.button:focus::after {
+  top: 0%;
+  opacity: 1;
+}
