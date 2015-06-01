@@ -306,7 +306,10 @@ body {
     border: 1px solid #7dc52f;
     display: inline-block;
     margin: 5px 10px;
-    border-radius: 50%; }
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center; }
     .site-navigation .mobile-toggle i {
       padding: 0 .5em;
       font-size: 1.3em;
@@ -355,6 +358,13 @@ body {
 .content {
   overflow: hidden; }
 
+.page-header {
+  padding: 30px;
+  color: #fff;
+  background-image: url("../img/page-image.jpg");
+  background-size: cover;
+  background-position: center center; }
+
 .slide {
   border-bottom: 1px solid #e5e5e3; }
   .slide .inner {
@@ -379,6 +389,9 @@ body {
     font-size: 14px;
     text-transform: uppercase; }
 
+.testimonial .photo {
+  display: none; }
+
 .quote {
   margin-bottom: 2em; }
   .quote p {
@@ -397,12 +410,20 @@ body {
       content: '”';
       bottom: -20px;
       right: -40px; }
+  .quote strong {
+    font-size: 1.5em; }
   .quote em {
     font-size: .9em;
     font-style: italic;
     color: #8d9095; }
 
 @media all and (min-width: 420px) {
+  .page-header {
+    padding: 60px 20px; }
+    .page-header .inner {
+      max-width: 960px;
+      margin: 0 auto; }
+
   .intro-hero {
     padding: 10vw 20px; }
     .intro-hero h1 {
@@ -414,7 +435,21 @@ body {
   .slide .inner {
     max-width: 960px;
     margin: 0 auto;
-    padding: 5em 20px; } }
+    padding: 5em 20px; }
+  .slide h3 {
+    font-size: 35px;
+    margin-bottom: .5em; }
+  .slide h3, .slide p {
+    width: 60%; } }
+@media all and (min-width: 800px) {
+  .testimonial {
+    overflow: hidden; }
+    .testimonial .photo {
+      width: 40%;
+      float: right;
+      display: block; }
+      .testimonial .photo img {
+        width: 100%; } }
 .button-standard {
   padding: 1em 1.5em;
   color: #fff;

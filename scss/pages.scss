@@ -1,6 +1,14 @@
 .content {
 	overflow: hidden;
 }
+.page-header {
+	padding: $mobile-side-space;
+	color: #fff;
+
+	background-image: url('../img/page-image.jpg');
+	background-size: cover;
+	background-position: center center;
+}
 .slide {
 	border-bottom: 1px solid $gray-light;
 	.inner {
@@ -36,6 +44,11 @@
 		text-transform: uppercase;
 	}
 }
+.testimonial {
+	.photo {
+		display: none;
+	}
+}
 .quote {
 	margin-bottom: 2em;
 	p {
@@ -58,6 +71,9 @@
 			right: -40px;
 		}
 	}
+	strong {
+		font-size: 1.5em;
+	}
 	em {
 		font-size: .9em;
 		font-style: italic;
@@ -70,6 +86,13 @@
 // Responsive
 @media all and (min-width: 420px) {
 // Tablet & Up
+.page-header {
+	padding: 60px $desktop-side-space;
+	.inner {
+		max-width: $page-size;
+		margin: 0 auto;
+	}
+}
 .intro-hero {
 	padding: 10vw $desktop-side-space;
 	h1 {
@@ -87,13 +110,30 @@
 		margin: 0 auto;
 		padding: 5em $desktop-side-space;
 	}
+	h3 {
+	  font-size: 35px;
+	  margin-bottom: .5em;
+	}
+	h3, p {
+		width: 60%;
+	}
 }
-
 // End Tablet & Up
 }
 
 @media all and (min-width: 800px) {
 // Desktop & Up
 
+.testimonial {
+	overflow: hidden;
+	.photo {
+		width: 40%;
+		float: right;
+		display: block;
+		img {
+			width: 100%;
+		}
+	}
+}
 // End Desktop & Up
 }

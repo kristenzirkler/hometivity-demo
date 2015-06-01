@@ -31,6 +31,9 @@ body {
 		display: inline-block;
 		margin: 5px 10px;
 		border-radius: 50%;
+		width: $nav-height - 10;
+		height: $nav-height - 10;
+		text-align: center;
 		i {
 			padding: 0 .5em;
 			font-size: 1.3em;
