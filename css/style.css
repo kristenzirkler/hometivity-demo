@@ -376,6 +376,11 @@ body {
   .slide:nth-child(even) {
     background-color: #f5f4f2; }
 
+.bg-image {
+  background-size: cover;
+  background-position: center top;
+  position: relative; }
+
 .intro-hero {
   padding: 120px 60px 60px;
   background-image: url("../img/home-image.jpg");
@@ -440,7 +445,16 @@ body {
     font-size: 35px;
     margin-bottom: .5em; }
   .slide h3, .slide p {
-    width: 60%; } }
+    width: 60%; }
+
+  .empp {
+    font-weight: bold; }
+
+  .testimonial {
+    background-image: url("../img/slide-bg-testimonial.jpg"); }
+
+  .chart {
+    background-image: url("../img/slide-bg-chart.jpg"); } }
 @media all and (min-width: 800px) {
   .testimonial {
     overflow: hidden; }

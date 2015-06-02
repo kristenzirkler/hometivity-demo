@@ -12,7 +12,7 @@
 
 <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 
-<script src="{{ page.path }}js/vendor/modernizr-2.6.2.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/modernizr-2.6.2.min.js"></script>
 <link href="http://fonts.googleapis.com/css?family=Oxygen:400,700|Roboto:900" rel="stylesheet" type="text/css">
 
 <!-- replace with only the icons needed -->
@@ -25,7 +25,6 @@
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 {% include header.html %}
-{{ site.domain }}{{ site.production }}
 {% if page.title != "Home" %}
 <div class="page-header">
   <div class="inner">
@@ -44,11 +43,11 @@
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="{{ page.path }}js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="{{ site.baseurl }}/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
-<script src="{{ page.path }}js/main.js"></script>
+<script src="{{ site.baseurl }}/js/main.js"></script>
 
-<!-- Google Analytics -->
+<!-- Google Analytics -  Random Demo Sites -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

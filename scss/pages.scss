@@ -26,6 +26,11 @@
 		background-color: $gray-lightest;
 	}
 }
+.bg-image {
+	background-size: cover;
+	background-position: center top;
+	position: relative;
+}
 .intro-hero {
 	padding: $mobile-side-space*4 $mobile-side-space*2 $mobile-side-space*2;
 
@@ -118,9 +123,23 @@
 		width: 60%;
 	}
 }
-// End Tablet & Up
+// Individual Slide Graphics
+.empp {
+	//color: $main-color;
+	font-weight: bold;
+}
+.testimonial {
+	background-image: url('../img/slide-bg-testimonial.jpg');
+}
+.chart {
+	background-image: url('../img/slide-bg-chart.jpg');
+	//background-position: bottom right;
+	//background-repeat: none;
 }
 
+
+// End Tablet & Up
+}
 @media all and (min-width: 800px) {
 // Desktop & Up
 

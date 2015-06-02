@@ -87,6 +87,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/slide-bg-chart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23640,
+		"inputAbbreviatedPath": "\/_site\/img\/slide-bg-chart.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/slide-bg-chart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/slide-bg-testimonial.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79878,
+		"inputAbbreviatedPath": "\/_site\/img\/slide-bg-testimonial.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/slide-bg-testimonial.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/testimonial-ben.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -358,6 +380,28 @@
 		"initialSize": 143017,
 		"inputAbbreviatedPath": "\/img\/page-image.jpg",
 		"outputAbbreviatedPath": "\/img\/page-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slide-bg-chart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23640,
+		"inputAbbreviatedPath": "\/img\/slide-bg-chart.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-chart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/slide-bg-testimonial.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79878,
+		"inputAbbreviatedPath": "\/img\/slide-bg-testimonial.jpg",
+		"outputAbbreviatedPath": "\/img\/slide-bg-testimonial.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
