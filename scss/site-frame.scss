@@ -53,16 +53,28 @@ body {
 		line-height: $nav-height;
 		border-top: 1px solid $gray-lightest;
 	}
-	.nav-open {
-		display: block;
+}
+.footer {
+	background: $main-color;
+	color: #fff;
+	overflow: hidden;
+
+	a {
+		color: #fff;
 	}
-	&.open {
-		opacity: 1;
-		.contact-button i {
-			display: none;
-		}
+	.logo {
+		display: inline-block;
+		float: left;
+		margin: 0 20px;
+		line-height: $nav-height;
+		font-family: $accent-font;
+		text-transform: uppercase;
+		font-size: 1.5em;
 	}
 }
+
+
+
 .hide {
 	opacity: 0;
 }

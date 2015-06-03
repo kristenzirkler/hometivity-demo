@@ -328,12 +328,21 @@ body {
     font-family: "Roboto", Arial, "Lucida Grande", sans-serif;
     line-height: 60px;
     border-top: 1px solid #f5f4f2; }
-  .site-navigation .nav-open {
-    display: block; }
-  .site-navigation.open {
-    opacity: 1; }
-    .site-navigation.open .contact-button i {
-      display: none; }
+
+.footer {
+  background: #7dc52f;
+  color: #fff;
+  overflow: hidden; }
+  .footer a {
+    color: #fff; }
+  .footer .logo {
+    display: inline-block;
+    float: left;
+    margin: 0 20px;
+    line-height: 60px;
+    font-family: "Roboto", Arial, "Lucida Grande", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em; }
 
 .hide {
   opacity: 0; }
@@ -394,33 +403,36 @@ body {
     font-size: 14px;
     text-transform: uppercase; }
 
-.testimonial .photo {
-  display: none; }
-
-.quote {
-  margin-bottom: 2em; }
-  .quote p {
-    position: relative;
-    margin-top: 10px; }
-    .quote p:before, .quote p:after {
-      font-size: 6em;
-      color: #7dc52f;
+.testimonial .quote {
+  text-align: center; }
+  .testimonial .quote p {
+    padding: 20px;
+    border: 5px solid #7dc52f;
+    font-size: 1.1em;
+    position: relative; }
+    .testimonial .quote p:before {
+      width: 0;
+      height: 0;
+      display: block;
+      border-top: 20px solid #7dc52f;
+      border-left: 20px solid transparent;
+      content: ' ';
       position: absolute;
-      font-family: "Roboto", Arial, "Lucida Grande", sans-serif; }
-    .quote p:before {
-      content: '“';
-      top: 4px;
-      left: -40px; }
-    .quote p:after {
-      content: '”';
       bottom: -20px;
-      right: -40px; }
-  .quote strong {
-    font-size: 1.5em; }
-  .quote em {
-    font-size: .9em;
+      right: 50px; }
+  .testimonial .quote strong {
+    line-height: 1.5em;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #7dc52f;
+    display: block; }
+  .testimonial .quote em {
+    color: #8d9095;
+    line-height: 1.5em;
     font-style: italic;
-    color: #8d9095; }
+    text-align: right;
+    display: block;
+    margin-bottom: 1.5em; }
 
 @media all and (min-width: 420px) {
   .page-header {
@@ -444,17 +456,25 @@ body {
   .slide h3 {
     font-size: 35px;
     margin-bottom: .5em; }
-  .slide h3, .slide p {
+
+  .right-space h3, .right-space p {
     width: 60%; }
+
+  .testimonial .quote p {
+    padding: 60px;
+    border-width: 8px;
+    font-size: 1.3em; }
+  .testimonial .quote strong {
+    font-size: 1.5em; }
 
   .empp {
     font-weight: bold; }
 
-  .testimonial {
-    background-image: url("../img/slide-bg-testimonial.jpg"); }
-
   .chart {
-    background-image: url("../img/slide-bg-chart.jpg"); } }
+    background-image: url("../img/slide-bg-chart.png"); }
+
+  .lineup {
+    background-image: url("../img/slide-bg-lineup.png"); } }
 @media all and (min-width: 800px) {
   .testimonial {
     overflow: hidden; }
@@ -552,7 +572,8 @@ p {
   margin-bottom: 1em; }
 
 .bullets {
-  margin: 0 0 2em 1.5em; }
+  margin: 0 0 2em 1.5em;
+  max-width: 610px; }
   .bullets li {
     line-height: 1.5em;
     margin: 0 0 1em;
@@ -564,6 +585,10 @@ p {
       position: absolute;
       top: 2px;
       left: -1.3em; }
+  .bullets strong {
+    font-size: 1.3em;
+    color: #7dc52f;
+    display: block; }
 
 h1, h2, h3, h4 {
   font-family: "Roboto", Arial, "Lucida Grande", sans-serif; }
