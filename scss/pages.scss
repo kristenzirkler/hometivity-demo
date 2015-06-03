@@ -23,7 +23,7 @@
 		}
 	}
 	&:nth-child(even) {
-		background-color: $gray-lightest;
+		//background-color: $gray-lightest;
 	}
 }
 .bg-image {
@@ -123,8 +123,8 @@
 	}
 }
 .right-space {
-	h3, p {
-		width: 60%;
+	h3, p, .bullets {
+		width: 70%;
 	}
 }
 .testimonial {
@@ -156,16 +156,6 @@
 @media all and (min-width: 800px) {
 // Desktop & Up
 
-.testimonial {
-	overflow: hidden;
-	.photo {
-		width: 40%;
-		float: right;
-		display: block;
-		img {
-			width: 100%;
-		}
-	}
-}
+
 // End Desktop & Up
 }
