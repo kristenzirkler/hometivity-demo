@@ -296,11 +296,9 @@ body {
   .site-navigation .logo {
     display: inline-block;
     float: left;
-    margin: 0 20px;
-    line-height: 60px;
-    font-family: "Roboto", Arial, "Lucida Grande", sans-serif;
-    text-transform: uppercase;
-    font-size: 1.5em; }
+    margin: 8px 10px 0; }
+    .site-navigation .logo img {
+      width: 200px; }
   .site-navigation .mobile-toggle {
     float: right;
     border: 1px solid #7dc52f;
@@ -432,6 +430,9 @@ body {
     display: block;
     margin-bottom: 1.5em; }
 
+.about-bullets .bullets {
+  margin-bottom: 0; }
+
 @media all and (min-width: 420px) {
   .page-header {
     padding: 60px 20px; }
@@ -462,8 +463,6 @@ body {
     padding: 60px;
     border-width: 8px;
     font-size: 1.3em; }
-  .testimonial .quote strong {
-    font-size: 1.5em; }
 
   .empp {
     font-weight: bold; }
@@ -472,7 +471,13 @@ body {
     background-image: url("../img/slide-bg-chart.png"); }
 
   .lineup {
-    background-image: url("../img/slide-bg-lineup.png"); } }
+    background-image: url("../img/slide-bg-lineup.png"); }
+
+  .about-bullets .inner {
+    overflow: hidden; }
+  .about-bullets .bullets {
+    float: left;
+    width: 45%; } }
 .button-standard {
   padding: 1em 1.5em;
   color: #fff;

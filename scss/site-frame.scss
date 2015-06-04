@@ -19,11 +19,14 @@ body {
 	.logo {
 		display: inline-block;
 		float: left;
-		margin: 0 20px;
-		line-height: $nav-height;
-		font-family: $accent-font;
-		text-transform: uppercase;
-		font-size: 1.5em;
+		margin: 8px 10px 0;
+		//line-height: $nav-height;
+		//font-family: $accent-font;
+		//text-transform: uppercase;
+		//font-size: 1.5em;
+		img {
+			width: 200px;
+		}
 	}
 	.mobile-toggle {
 		float: right;

@@ -89,6 +89,11 @@
 	}
 }
 
+.about-bullets {
+	.bullets {
+		margin-bottom: 0;
+	}
+}
 
 // Responsive
 @media all and (min-width: 420px) {
@@ -135,7 +140,7 @@
 			font-size: 1.3em;
 		}
 		strong {
-			font-size: 1.5em;
+			//font-size: 1.5em;
 		}
 	}
 }
@@ -148,6 +153,15 @@
 }
 .lineup {
 	background-image: url('../img/slide-bg-lineup.png');
+}
+.about-bullets {
+	.inner {
+		overflow: hidden;
+	}
+	.bullets {
+		float: left;
+		width: 45%;
+	}
 }
 
 
