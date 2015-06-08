@@ -94,7 +94,25 @@
 		margin-bottom: 0;
 	}
 }
-
+.bio {
+	padding: $mobile-side-space;
+	margin: $mobile-side-space 0;
+	border: 10px solid $main-color; 
+	h4 {
+		line-height: 1.4em;
+		text-align: center;
+	}
+	strong {
+		color: $font-color;
+		display: block;
+		font-size: 1.4em;
+	}
+	img {
+		margin: 0 auto 1em;
+		display: block;
+		max-width: 100%;
+	}
+}
 // Responsive
 @media all and (min-width: 420px) {
 // Tablet & Up
@@ -161,6 +179,17 @@
 	.bullets {
 		float: left;
 		width: 45%;
+	}
+}
+.bio {
+	overflow: hidden;
+	.name-photo {
+		float: left;
+		margin-right: 40px;
+		width: 300px;
+	}
+	p {
+		margin-left: 300px;
 	}
 }
 
