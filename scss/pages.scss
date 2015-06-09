@@ -60,11 +60,11 @@
 			&:before {
 				width: 0; height: 0;
 				display: block;
-				border-top: 20px solid $main-color;
-				border-left: 20px solid transparent;
+				border-top: 30px solid $main-color;
+				border-left: 30px solid transparent;
 				content: ' ';
 				position: absolute;
-				bottom: -20px;
+				bottom: -30px;
 				right: 50px;
 			}
 		}
@@ -82,6 +82,7 @@
 			text-align: right;
 			display: block;
 			margin-bottom: 1.5em;
+			font-weight: bold;
 			&:before {
 				//content: '-';
 			}
@@ -141,13 +142,13 @@
 		padding: 5em $desktop-side-space;
 	}
 	h3 {
-	  font-size: 35px;
+	  font-size: 34px;
 	  margin-bottom: .5em;
 	}
 }
 .right-space {
 	h3, p, .bullets {
-		width: 70%;
+		width: 75%;
 	}
 }
 .testimonial {

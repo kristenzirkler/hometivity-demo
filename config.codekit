@@ -65,6 +65,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/how-it-works\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -74,6 +83,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/img\/headshot-cpb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39758,
+		"inputAbbreviatedPath": "\/_site\/img\/headshot-cpb.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/headshot-cpb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/headshot-rsr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28872,
+		"inputAbbreviatedPath": "\/_site\/img\/headshot-rsr.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/headshot-rsr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/headshot-svn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41584,
+		"inputAbbreviatedPath": "\/_site\/img\/headshot-svn.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/headshot-svn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/home-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 201747,
+		"inputAbbreviatedPath": "\/_site\/img\/home-image.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/home-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -81,6 +134,17 @@
 		"initialSize": 9286,
 		"inputAbbreviatedPath": "\/_site\/img\/logo.png",
 		"outputAbbreviatedPath": "\/_site\/img\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/page-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70369,
+		"inputAbbreviatedPath": "\/_site\/img\/page-image.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/page-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -273,6 +337,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_site\/scss\/pages.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/scss\/pages.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/pages.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/_site\/scss\/reset.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -399,6 +479,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/button_calculate.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3692,
+		"inputAbbreviatedPath": "\/img\/button_calculate.png",
+		"outputAbbreviatedPath": "\/img\/button_calculate.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/headshot-cpb.jpg": {
 		"fileType": 16384,

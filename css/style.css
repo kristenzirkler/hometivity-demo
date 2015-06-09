@@ -410,11 +410,11 @@ body {
       width: 0;
       height: 0;
       display: block;
-      border-top: 20px solid #7dc52f;
-      border-left: 20px solid transparent;
+      border-top: 30px solid #7dc52f;
+      border-left: 30px solid transparent;
       content: ' ';
       position: absolute;
-      bottom: -20px;
+      bottom: -30px;
       right: 50px; }
   .testimonial .quote strong {
     line-height: 1.5em;
@@ -428,7 +428,8 @@ body {
     font-style: italic;
     text-align: right;
     display: block;
-    margin-bottom: 1.5em; }
+    margin-bottom: 1.5em;
+    font-weight: bold; }
 
 .about-bullets .bullets {
   margin-bottom: 0; }
@@ -469,11 +470,11 @@ body {
     margin: 0 auto;
     padding: 5em 20px; }
   .slide h3 {
-    font-size: 35px;
+    font-size: 34px;
     margin-bottom: .5em; }
 
   .right-space h3, .right-space p, .right-space .bullets {
-    width: 70%; }
+    width: 75%; }
 
   .testimonial .quote p {
     padding: 60px;
